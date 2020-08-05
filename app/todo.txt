@@ -1,0 +1,27 @@
+ - Exports done <3
+ - Now we need to add more QOL:
+  1. Let's part the funciton in various calls so we can "progress bar"
+  2. Let's save who run it at last and when.
+  3. We should apply this logic to all the workflows.
+
+openid 
+https://www.googleapis.com/auth/userinfo.profile 
+https://www.googleapis.com/auth/userinfo.email 
+https://www.googleapis.com/auth/script.projects 
+https://www.googleapis.com/auth/drive 
+https://www.googleapis.com/auth/plx 
+https://www.googleapis.com/auth/script.send_mail 
+https://www.googleapis.com/auth/spreadsheets 
+
+
+openid 
+https://www.googleapis.com/auth/userinfo.profile 
+https://www.googleapis.com/auth/spreadsheets.currentonly 
+https://www.googleapis.com/auth/drive.readonly 
+https://www.googleapis.com/auth/script.projects 
+https://www.googleapis.com/auth/userinfo.email 
+https://www.googleapis.com/auth/script.external_request 
+https://www.googleapis.com/auth/drive 
+https://www.googleapis.com/auth/plx 
+https://www.googleapis.com/auth/script.send_mail 
+https://www.googleapis.com/auth/spreadsheets".

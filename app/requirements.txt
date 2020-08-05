@@ -1,0 +1,12 @@
+requests==2.21.0
+Flask
+oauthlib==3.0.1
+pyOpenSSL==19.0.0
+Flask-Login==0.4.1
+google-cloud-firestore
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+Flask-Cors
+gunicorn
