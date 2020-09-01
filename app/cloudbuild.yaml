@@ -1,11 +1,11 @@
 steps:
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/whp-tl-assistant/beta', '.']
+  args: ['build', '-t', 'gcr.io/[REDACTED]/beta', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/whp-tl-assistant/beta']
+  args: ['push', 'gcr.io/[REDACTED]/beta']
 # Deploy container image to Cloud Run
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['run', 'deploy', 'tl-dashboard', '--image', 'gcr.io/whp-tl-assistant/beta', '--region', 'europe-west1', '--platform', 'managed', '--allow-unauthenticated']
+  args: ['run', 'deploy', 'tl-dashboard', '--image', 'gcr.io/[REDACTED]/beta', '--region', 'europe-west1', '--platform', 'managed', '--allow-unauthenticated']
 images:
 - gcr.io/whp-tl-assistant/beta   
